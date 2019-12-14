@@ -30,7 +30,7 @@ def day2_2():
     expected = 19690720
     while noun <= 99:
         while verb <= 99:
-            new_input = constant.INPUT_2.copy()
+            new_input = constant.INPUT2_1.copy()
             new_input[1] = noun
             new_input[2] = verb
             result = day2_1(new_input, 0)
